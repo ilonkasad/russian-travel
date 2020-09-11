@@ -1,0 +1,7 @@
+.cover__overlay {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    max-height:100%
+}

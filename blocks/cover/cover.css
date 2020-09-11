@@ -1,0 +1,34 @@
+.cover {
+    display: grid;
+    max-width: calc(100% - (48px*2));
+    grid-template-columns: 1fr 1.8fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-height: 740px;
+    margin-bottom: 92px;
+}
+
+.cover:hover a {
+    opacity: 0.8;
+  }
+
+@media screen and (max-width: 1024px) {   
+    .cover {
+        max-height: 640px;
+        max-width:100%;
+    }
+}
+
+@media screen and (max-width: 768px) {   
+    .cover {
+        max-height: 640px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {   
+    .cover {
+        max-height: 200px;
+        margin-bottom: 64px;
+        
+    }
+}

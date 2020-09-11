@@ -1,0 +1,15 @@
+.cover__info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 2/3; 
+}
+
+@media screen and (max-width: 320px) {   
+    .cover__info {
+        grid-column: 1/4;
+        grid-row: 2/3; 
+    }
+}

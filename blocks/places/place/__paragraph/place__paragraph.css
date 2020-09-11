@@ -1,0 +1,32 @@
+.place__paragraph {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+.place__paragraph :nth-last-child(1) {
+    padding-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {   
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        word-wrap: break-word;
+    }
+}
+
+@media screen and (max-width: 320px) {   
+    .place__paragraph {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}

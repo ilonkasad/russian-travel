@@ -1,0 +1,28 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100% - (148px*2));
+    padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {   
+    .places {
+        max-width: calc(100% - (48px*2));
+    }
+}
+
+@media screen and (max-width: 768px) {   
+    .places {
+        max-width: calc(100% - (24px*2));
+    }
+}
+
+@media screen and (max-width: 320px) {  
+    .places {
+        max-width: calc(100% - (16px*2));
+        padding-bottom: 88px;
+    }
+}
+.places :nth-last-child(1) {
+    padding-bottom: 0px;
+}
