@@ -1,0 +1,11 @@
+.place__website-elem_type_link {
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.place__website-elem_type_link:hover {
+    opacity: 0.8;
+    transition: 1s;
+}
+

@@ -1,6 +1,6 @@
 .cover {
     display: grid;
-    max-width: calc(100% - (48px*2));
+    max-width: 1184px;
     grid-template-columns: 1fr 1.8fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     max-height: 740px;
@@ -9,7 +9,14 @@
 
 .cover:hover a {
     opacity: 0.8;
+    transition: 2s;
   }
+
+  @media screen and (max-width: 1279px) {   
+    .cover {
+        max-width:calc(100% - (48px*2));
+    }
+}
 
 @media screen and (max-width: 1024px) {   
     .cover {
@@ -20,7 +27,7 @@
 
 @media screen and (max-width: 768px) {   
     .cover {
-        max-height: 640px;
+        max-height: 480px;
         margin-bottom: 88px;
     }
 }
