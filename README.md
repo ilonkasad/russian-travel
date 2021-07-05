@@ -1,31 +1,9 @@
-# Проект 3: Путешествие по России
-[Ссылка на github](https://ilonkasad.github.io/russian-travel/)
+# Educational project: Traveling in Russia
+[See on the githubpages](https://ilonkasad.github.io/russian-travel/)
 
-### Обзор
-* Описание проекта
-* Навыки
-* Планы по доработке
-* Используемые технологии
+**Description**
+The project is dedicated to learning how to work with the Figma layout and get to know the responsive layout. 
+In the process of layout, the CSS specifications were studied: Grid and FlexBox. The project itself is an information page. Interesting places in Russia where you can go on a trip are presented.
 
-**Описание проекта**
-
-Проект о путешествии по России.
-Проект посвящен тому, чтобы научиться самостоятельно работать с макетом в графическом редакторе 
-(потому что именно так приходит задание от дизайнера) и познакомиться с адаптивной вёрсткой 
-(чтобы наши сайты одинаково красиво и функционально работали на всех устройствах).
-
-**Навыки**
-
-1. Научиться работать с макетом в графическом редакторе «Фигма».
-2. Верстать адаптивные сайты на Grid Layout.
-3. Использовать media queries для задания специфических правил для разных размеров экранов.
-4. Научиться работать с ветками (branches) в гите.
-
-**Планы по доработке**
-
-С целью обучения улучшить качество кода и оптимизировать работу сайта
-
-**Используемые технологии**
-
-HTML, CSS
-
+**Technologies**
+HTML, CSS, BEM, Git
